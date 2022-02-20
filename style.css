@@ -117,7 +117,7 @@ p.slide-left{
     width: 300px;
     height: 460px;
     margin: 25px;
-    background-color: rgba(255, 255, 255, 0.548);
+    background-color: rgba(255, 255, 255, 0.493);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0,0,0, 0.7);
@@ -152,6 +152,14 @@ p.slide-left{
     width: 250px;
     margin: 0 auto;
 }
+.price{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.parcelas{
+    font-size: 18px;
+    font-weight: bolder;
+}
 .card-footer{
     margin-top: 15%;
     text-align: center;
@@ -162,11 +170,11 @@ p.slide-left{
     display: block;
     padding: 16px;
     text-decoration: none;
-    font-family: sans-serif;
     font-weight: 600;
 }
 .card-1 .card-footer{
     background-color: #173fd1af;
+    
 }
 .card-2 .card-footer{
     background-color: #d12760af;
@@ -178,11 +186,13 @@ p.slide-left{
 .card:hover{
     transform: scale3d(1.1, 1.1, 1);
     transition: 0.4s ease-in-out;
+    background-image: linear-gradient(rgba(2, 0, 136, 0.534),rgb(4, 78, 47));
 }
 img:hover{
     transform: scale(1.1);
     margin-top: 20px;
     transition: 0.5s ease-in-out;
+    
 }
 .container{
     animation: slideimage 1s normal forwards;
