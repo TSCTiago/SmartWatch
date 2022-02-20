@@ -208,3 +208,19 @@ img:hover{
         opacity: 1;
     }
 }
+.footer{
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    font-size: 20px;
+    color: rgba(146, 92, 26, 0.753);
+    font-weight: bolder;
+}
