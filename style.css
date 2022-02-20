@@ -8,7 +8,7 @@
 .hearder{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(136, 104, 0, 0.514),rgba(5,0,136,0.5) ), url('imagens/back.jpg');
+    background-image: linear-gradient(rgba(136, 104, 0, 0.514),rgba(5,0,136,0.5) ), url('imagens/back2.jpg');
     background-position: center;
     background-size: cover;
     overflow: hidden;
